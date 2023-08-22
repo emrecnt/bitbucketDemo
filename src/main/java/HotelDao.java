@@ -4,8 +4,8 @@ import java.util.List;
 
 public class HotelDao {
 
-public String processData(String s){
-    return s;
+public String processData(String ss){
+    return ss;
 }
     public int method1(){
         return 777;

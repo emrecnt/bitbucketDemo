@@ -8,11 +8,11 @@ public class BookingManager {
     public String newAnahtarliDeneme(){
         HotelDao hotelDao = new HotelDao();
         if(hotelDao.method1()==777) {
-            return "777'ye eşit";
+            return "777'ye esit";
 
         }
         if(hotelDao.method1()==555){
-            return "555'e eşit";
+            return "555'e esit";
         }
         else return "-1";
     }

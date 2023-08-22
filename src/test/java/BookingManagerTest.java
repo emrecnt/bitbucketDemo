@@ -43,7 +43,7 @@ public class BookingManagerTest {
                 }
                 ).when(dao).processData(anyString());
 
-        dao.processData("DENENME");
+        dao.processData("DENENMEE");
     }
 
     private BookingManager bManager = new BookingManager();
